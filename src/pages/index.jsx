@@ -2,15 +2,19 @@ import CardList from "@/components/CardList";
 import Hero from "@/components/Hero";
 import Navigation from "@/components/Navigation";
 import Upcoming from "@/components/Upcoming";
-const index = () => {
+const App = () => {
   return (
-    <div className="flex flex-col items-center">
+    <div className="min-h-screen bg-white">
       <Navigation />
-      <Hero />
-      <Upcoming />
-      <CardList />
+      <main className="pb-12">
+        <Hero />
+        <div className="container mx-auto px-4 py-8">
+          <Upcoming />
+          <CardList />
+        </div>
+      </main>
     </div>
   );
 };
 
-export default index;
+export default App;
