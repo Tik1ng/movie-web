@@ -1,4 +1,5 @@
 import CardList from "@/components/CardList";
+import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Navigation from "@/components/Navigation";
 import Upcoming from "@/components/Upcoming";
@@ -13,6 +14,7 @@ const App = () => {
           <CardList />
         </div>
       </main>
+      <Footer />
     </div>
   );
 };
