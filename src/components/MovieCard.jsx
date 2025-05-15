@@ -1,20 +1,22 @@
 const MovieCard = ({ image, rating, title }) => {
   return (
-    <div className="w-[230px] h-[440px]">
+    <div className="w-full h-auto flex flex-col">
       <img
         src={image}
-        alt="movie images"
-        className="w-full h-[340px] object-fit rounded-t-md"
+        alt={`${title} poster`}
+        className="w-full aspect-[2/3] object-cover rounded-t-md"
       />
-      <div className=" flex flex-col p-2 bg-[#F4F4F5] rounded-b-md h-[100px]">
-        <div className="flex gap-0.5">
+      <div className="flex flex-col p-2 bg-[#F4F4F5] rounded-b-md">
+        <div className="flex gap-0.5 items-center">
           <img src="star.svg" alt="star icon" className="w-4 h-4" />
-          <p className="text-sm text-[#09090B] font-normal ">
+          <p className="text-sm text-[#09090B] font-normal">
             {rating}
-            <span className=" text-[#71717A]">/10</span>
+            <span className="text-[#71717A]">/10</span>
           </p>
         </div>
-        <p className="text-[#09090B] text-lg font-normal  ">{title}</p>
+        <p className="text-[#09090B] text-base sm:text-lg font-normal line-clamp-2">
+          {title}
+        </p>
       </div>
     </div>
   );
