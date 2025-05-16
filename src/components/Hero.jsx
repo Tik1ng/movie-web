@@ -2,7 +2,7 @@ const Hero = () => {
   return (
     <div
       className="w-full h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px] bg-cover bg-center my-4 md:my-7"
-      style={{ backgroundImage: "url('Feature.png')" }}
+      style={{ backgroundImage: "url('Feature.jpg')" }}
     >
       <div className="container mx-auto px-4">
         <div className="flex flex-col gap-3 max-w-sm text-white pt-16 sm:pt-24 md:pt-32 lg:pt-48">

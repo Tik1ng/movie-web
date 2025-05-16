@@ -10,7 +10,11 @@ const App = () => {
       <main className="pb-12">
         <Hero />
         <div className="container mx-auto px-4 py-8">
-          <Upcoming />
+          <Upcoming text="Upcoming" />
+          <CardList />
+          <Upcoming text="Popular" />
+          <CardList />
+          <Upcoming text="Top rated" />
           <CardList />
         </div>
       </main>
