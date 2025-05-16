@@ -14,7 +14,7 @@ const MovieCard = ({ image, rating, title }) => {
             <span className="text-[#71717A]">/10</span>
           </p>
         </div>
-        <p className="text-[#09090B] text-base sm:text-lg font-normal ">
+        <p className="text-[#09090B] text-base sm:text-lg font-normal h-[50px]">
           {title}
         </p>
       </div>

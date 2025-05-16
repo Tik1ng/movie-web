@@ -13,7 +13,6 @@ const Footer = () => {
             <p className="text-sm">© 2024 Movie Z. All Rights Reserved.</p>
           </div>
 
-          {/* Contact Information Section */}
           <div className="mb-6 md:mb-0">
             <h3 className="text-base font-medium mb-4">Contact Information</h3>
             <div className="flex items-start mb-4">
